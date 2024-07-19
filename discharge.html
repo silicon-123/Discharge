@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discharge Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 5px;
+            border-color: 2px  black;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background-color: green;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+        .header .hospital-info {
+            text-align: right;
+            margin-left: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header .hospital-info p {
+            margin: 2px 0;
+        }
+        .centered-title {
+            text-align: center;
+            flex-grow: 1;
+        }
+        .content {
+            margin: 5px;
+        }
+        .section {
+            margin-bottom: 10px;
+        }
+        .signature {
+            margin-top: 0px;
+            text-align: right;
+        }
+       
+        .footer {
+            background-color:green;
+            padding: 5px;
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer .phone-number {
+            font-weight: bold;
+            color: black;
+        }
+        .footer .motto {
+            font-style: italic;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Oi4ZOeOKRwn2Ev02WpOYf-KZHqE4Y2--pTaftW_rhXEb-7fvWL4H9wL5mM1Rfm9dJIw&usqp=CAU" alt="Hospital Logo">
+        <div class="centered-title">
+            <h1>JaiPrakash Hospital</h1>
+        </div>
+        <div class="hospital-info">
+            <p>Address:Main Road,Uditnagar,Rourkela-12, </p>
+            <p>Contact Number:8549762854</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h3>Patient Details</h3>
+            <table border="1" cellspacing="0" cellpadding="10" style="width: 70%; border-collapse: collapse;">
+                <tr>
+                    <td><strong>Name:</strong></td>
+                    <td>Sweety Pathak</td>
+                </tr>
+                <tr>
+                    <td><strong>Age:</strong></td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td><strong>Gender:</strong></td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td><strong>Patient ID:</strong></td>
+                    <td>VP/IP/24-25/2991</td>
+                </tr>
+                <tr>
+                    <td><strong>Date & time Admission:</strong></td>
+                    <td>16-7-24,10:30 am</td>
+                </tr>
+                <tr>
+                    <td><strong>Date & time of Discharge:</strong></td>
+                    <td>22-7-24,5:30 pm</td>
+                </tr>
+                <tr>
+                    <td><strong>Doctor Name:</strong></td>
+                    <td>AK Sinha</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+        <div class="section">
+            <h3>Diagnosis:</h3>
+            <p>1.Blood Infection ,Viral Fever</p>
+        </div>
+        <div class="section">
+            <h3>Examination:</h3>
+            <p>1.BP-90/50 mm/hg</p>
+            <p>2.Temp-98.4</p>
+            <p>3.SPO2-96%</p>
+            <p>4.Hemoglobin-10.7gm%</p>
+            <p>5.ESR-62</p>
+        </div>
+
+        <div class="section">
+            <h3>Treatment and Medications:</h3>
+            <p>1.Steroids - 260 mg, once a day</p>
+            <p>2.</p>
+            <p>3. Steroids</p>
+        </div>
+        <div class="section">
+            <h3>Patient-History:</h3>
+            <p>1.Thyroid,PCOD</p>          
+
+        </div>
+
+        <div class="section">
+            <h3>Discharge Instructions:</h3>
+            <p>1. Follow up with a primary care physician in one week.</p>
+            <p>2. Continue taking prescribed medications as directed.</p>
+            <p>3. Maintain a balanced diet and stay hydrated.</p>
+        </div>
+        <div class="section">
+            <h3>Medication:</h3>
+        <p> 1.ceftriaxone.....1*10</p>
+        <p> 2.Paiperacinnin...1*5</p>
+        <p> 3.VVDox     .....1*10</p> 
+        <p> 4.Polaramine (2mg)...1*10</p>
+        <p> 5.UrsoCol (2mg)...1*10</p>
+
+    </div>
+    </div>
+
+    <div class="signature">
+        <p>Doctor's Name:AK Sinha</p>
+        <p>Signature:</p>
+        <img src="data:image/jpeg;base64,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" alt="Doctor's Signature" width="200">
+       
+    </div>
+    <footer class="footer">
+        <p class="phone-number">Phone-Number: (123) 456-7890</p>
+        <p class="motto">"Stamp of Excellence in Patient Care"</p>
+    </footer>
+
+</body>
+</html>
